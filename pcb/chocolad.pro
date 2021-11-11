@@ -1,17 +1,14 @@
-update=Tue 26 Jan 2021 12:44:55 CET
+update=Sun Apr 11 23:35:13 2021
 version=1
 last_client=kicad
-[general]
-version=1
-RootSch=
-BoardNm=
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -28,8 +25,8 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.2
-TrackWidth2=0.25
+TrackWidth1=0.25
+TrackWidth2=0.2
 TrackWidth3=0.5
 ViaDiameter1=0.6
 ViaDrill1=0.4
@@ -42,7 +39,7 @@ SilkTextSizeH=1
 SilkTextSizeThickness=0.15
 SilkTextItalic=0
 SilkTextUpright=1
-CopperLineWidth=0.15
+CopperLineWidth=0.09999999999999999
 CopperTextSizeV=1.5
 CopperTextSizeH=1.5
 CopperTextThickness=0.3
@@ -230,7 +227,18 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.2
-TrackWidth=0.2
+TrackWidth=0.25
+ViaDiameter=0.6
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Thocc
+Clearance=0.2
+TrackWidth=0.5
 ViaDiameter=0.6
 ViaDrill=0.4
 uViaDiameter=0.3

@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name chocolad-rescue)(type Legacy)(uri ${KIPRJMOD}/chocolad-rescue.lib)(options "")(descr ""))
-)
