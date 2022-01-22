@@ -89,6 +89,7 @@
         "silk_over_copper": "error",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -120,8 +121,8 @@
       },
       "track_widths": [
         0.0,
-        0.2,
-        0.5
+        0.25,
+        0.4
       ],
       "via_dimensions": [
         {
@@ -386,7 +387,7 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.4,
         "via_diameter": 0.6,
         "via_drill": 0.4,
         "wire_width": 6.0
