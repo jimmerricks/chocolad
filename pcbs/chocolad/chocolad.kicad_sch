@@ -6,8 +6,8 @@
 
   (title_block
     (title "Chocolad")
-    (date "2021-11-11")
-    (rev "0.4")
+    (date "2022-02-03")
+    (rev "0.5.1")
     (company "jmnw")
   )
 
